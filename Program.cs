@@ -4,10 +4,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Crear instancias de cada tipo de vehículo
-        Auto miAuto = new Auto("Toyota", "Corolla", 2020, 15000, 4);
-        Motocicleta miMoto = new Motocicleta("Yamaha", "MT-07", 2019, 8000, "Deportiva");
-        Camion miCamion = new Camion("Volvo", "FH", 2018, 120000, 20);
+        //Marcas 
+        Auto miAuto = new Auto("Ford", "Mustang", 2023, 15000, 4);
+        Motocicleta miMoto = new Motocicleta("Yamaha", "YZF-R1", 2023, 6000, "Deportiva");
+        Camion miCamion = new Camion("Volvo", "FH", 2022, 120000, 20);
 
         // Usar los métodos y mostrar propiedades adicionales
         Console.WriteLine($"Auto: {miAuto.Marca} {miAuto.Modelo}, Año: {miAuto.Año}, Puertas: {miAuto.NumeroDePuertas}");
